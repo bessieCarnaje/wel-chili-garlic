@@ -4,6 +4,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-width: 400px;
 }
 
 /** DIVS **/
@@ -13,7 +14,6 @@ body {
   box-sizing: border-box;
   background-color: rgba(115, 9, 9, 0.7);
   width: 100%;
-  max-width: 400px;
   height: 900px;
   border-radius: 30px;
   display: flex;
