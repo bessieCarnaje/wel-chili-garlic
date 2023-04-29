@@ -12,7 +12,8 @@ body {
   margin-top: 10px;
   box-sizing: border-box;
   background-color: rgba(115, 9, 9, 0.7);
-  width: 316px;
+  width: 100%;
+  max-width: 400px;
   height: 900px;
   border-radius: 30px;
   display: flex;
@@ -21,12 +22,13 @@ body {
   padding-left: 24.5px;
   padding-top: 20px;
   white-space: no-wrap;
+  align-items: center;
 }
 
 .order-subdiv {
   box-sizing: border-box;
   background-color: rgba(223, 145, 145, 0.8);
-  width: 267px;
+  width: 100%;
   border-radius: 10px;
   padding-top: 12px;
   padding-left: 10px;
@@ -37,7 +39,7 @@ body {
 .quantity-div {
   box-sizing: border-box;
   background-color: #fffaed;
-  width: 316px;
+  width: 100%;
   height: 155px;
   border-radius: 26px;
   color: red;
@@ -53,7 +55,7 @@ body {
   margin-bottom: 10px;
   box-sizing: border-box;
   height: 261px;
-  width: 316px;
+  width: 100%;
   background-image: url("../images/chili-main.jpg");
   background-size: cover;
   background-repeat: no-repeat;
