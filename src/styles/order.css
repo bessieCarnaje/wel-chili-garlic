@@ -1,0 +1,197 @@
+body {
+  font-size: 12px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/** DIVS **/
+
+.order-div {
+  margin-top: 10px;
+  box-sizing: border-box;
+  background-color: rgba(115, 9, 9, 0.7);
+  width: 316px;
+  height: 900px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding-left: 24.5px;
+  padding-top: 20px;
+  white-space: no-wrap;
+}
+
+.order-subdiv {
+  box-sizing: border-box;
+  background-color: rgba(223, 145, 145, 0.8);
+  width: 267px;
+  border-radius: 10px;
+  padding-top: 12px;
+  padding-left: 10px;
+  padding-bottom: 15px;
+  margin-top: 10px;
+}
+
+.quantity-div {
+  box-sizing: border-box;
+  background-color: #fffaed;
+  width: 316px;
+  height: 155px;
+  border-radius: 26px;
+  color: red;
+  display: flex;
+  flex-direction: row;
+  align-items: justify;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.chili-album {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  height: 261px;
+  width: 316px;
+  background-image: url("../images/chili-main.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.quantity-subdiv-1 {
+  padding-left: 30px;
+}
+
+.quantity-subdiv-2 {
+  margin-top: 25px;
+  padding-left: 10px;
+}
+
+.chili-pic-div {
+  box-sizing: border-box;
+  height: 82px;
+  width: 86.81px;
+  background-image: url("../images/chili-bottle.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/** TEXT **/
+
+.order-comment {
+  color: red;
+}
+.order-comment2 {
+  color: rgb(98, 4, 4);
+  font-size: 10px;
+}
+
+.text-price {
+  font-size: 24px;
+  font-weight: bolder;
+  color: #cd7c1e;
+  text-align: left;
+}
+
+.text-total {
+  font-size: 20px;
+  font-weight: bolder;
+  color: #756d6d;
+}
+
+.text-total-num {
+  font-size: 25px;
+  font-weight: bolder;
+  color: #381ce3;
+}
+
+/** TEXT BOXES **/
+
+.order-txtbox {
+  box-sizing: border-box;
+  padding-left: 10px;
+  height: 30px;
+  border-radius: 5px;
+  box-shadow: none;
+  border: none;
+}
+
+.txtbox-main {
+  width: 267px;
+}
+
+.txtbox-sub {
+  width: 239px;
+}
+
+.quantity-picker {
+  margin-top: 10px;
+  width: 116px;
+  height: 37.34px;
+  border: none;
+  border-radius: 18px;
+  font-size: 15px;
+  text-align: center;
+  box-shadow: 1px 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+/** TEXT AREA **/
+.order-text-area {
+  box-sizing: border-box;
+  width: 265px;
+  height: 68px;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+/** DROP DOWN **/
+
+.select-drop {
+  width: 239px;
+  height: 30px;
+  appearance: none;
+  border: none;
+  padding-left: 10px;
+}
+
+/** BUTTON **/
+.button-green {
+  width: 267px;
+  height: 48px;
+  border-radius: 10px;
+  background-color: #00785b;
+  font-size: 15px;
+  color: white;
+}
+
+/** CALENDAR**/
+.calendar-picker {
+  position: relative;
+  display: inline-block;
+}
+
+.calendar-picker input[type="text"] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.calendar-picker .calendar-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20px;
+  height: 20px;
+  background-image: url("../images/calendar-icon.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}

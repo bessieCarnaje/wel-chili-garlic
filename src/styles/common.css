@@ -1,0 +1,37 @@
+body {
+  background-color: black;
+}
+
+.header-style {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  width: 316px;
+}
+.header-style-1 {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+.header-style-2 {
+  margin-left: 60px;
+  box-sizing: border-box;
+  width: 44px;
+  height: 44px;
+  background-image: url("../images/fb.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.header-welicious {
+  font-size: 20px;
+  color: #ef9934;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+.header-chili {
+  font-size: 20px;
+  color: white;
+  font-weight: bolder;
+}
