@@ -154,11 +154,12 @@ body {
 /** DROP DOWN **/
 
 .select-drop {
-  width: 239px;
+  width: 94%;
   height: 30px;
   appearance: none;
   border: none;
   padding-left: 10px;
+  box-sizing: border-box;
 }
 
 /** BUTTON **/
