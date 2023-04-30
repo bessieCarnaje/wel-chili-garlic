@@ -11,14 +11,16 @@ export default function Quantity() {
         <label className="text-total">Total:</label>
         &nbsp; &nbsp;
         <label className="text-total-num">550</label>
-        <div class="input-container">
+        <div className="quantity-picker-div">
+          <button className="quantity-picker-button">-</button>
           <input
-            className="quantity-picker "
+            className="quantity-picker"
             type="number"
             min="0"
             max="10"
             placeholder="0"
           ></input>
+          <button className="quantity-picker-button">+</button>
         </div>
       </div>
     </div>

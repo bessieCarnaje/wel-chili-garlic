@@ -6,7 +6,7 @@ body {
   margin-top: 10px;
   display: flex;
   flex-direction: row;
-  width: 316px;
+  width: 100px;
 }
 .header-style-1 {
   text-align: left;

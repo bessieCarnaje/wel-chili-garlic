@@ -44,7 +44,6 @@ body {
   width: 100%;
   height: 155px;
   border-radius: 26px;
-  color: red;
   display: flex;
   flex-direction: row;
   align-items: justify;
@@ -66,11 +65,11 @@ body {
 
 .quantity-subdiv-1 {
   padding-left: 30px;
+  width: 35%;
 }
 
 .quantity-subdiv-2 {
   margin-top: 25px;
-  padding-left: 10px;
 }
 
 .chili-pic-div {
@@ -129,7 +128,8 @@ body {
   width: 90%;
 }
 
-.quantity-picker {
+.quantity-picker-div {
+  background-color: white;
   margin-top: 10px;
   width: 116px;
   height: 37.34px;
@@ -138,6 +138,15 @@ body {
   font-size: 15px;
   text-align: center;
   box-shadow: 1px 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.quantity-picker {
+  margin-top: 10px;
+  border: none;
+  border-radius: 18px;
+  font-size: 15px;
+  width: 40%;
+  text-align: center;
 }
 
 /** TEXT AREA **/
@@ -198,4 +207,15 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   cursor: pointer;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.quantity-picker-button {
+  border: none;
+  font-size: 20px;
+  background-color: white;
 }
