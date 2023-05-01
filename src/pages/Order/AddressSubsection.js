@@ -42,7 +42,11 @@ export default function AddressSubsection() {
           className="select-drop"
           value={city}
           onChange={(e) => citySelect(e)}
+          placeholder="Select City"
         >
+          <option disabled selected value="">
+            Choose City
+          </option>
           {cities.map((city) => (
             <option key={city.value} value={city.value}>
               {city.label}
@@ -56,7 +60,11 @@ export default function AddressSubsection() {
           className="select-drop"
           value={baranggay}
           onChange={(e) => setBaranggay(e.target.value)}
+          placeholder="Select Baranggay"
         >
+          <option disabled selected value="">
+            Choose Baranggay
+          </option>
           {baranggayList.map((b) => (
             <option key={b.value} value={b.value}>
               {b.label}
