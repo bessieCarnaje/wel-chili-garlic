@@ -1,6 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 
 export default function AddressSubsection() {
+  const [housestreet, setHousestreet] = useState("");
+  const [houseStreetError, setHouseStreetError] = useState(false);
+
+  function checkHouseStreet() {
+    setHouseStreetError(false);
+    if (housestreet.length === 0) setHouseStreetError(true);
+  }
+
   return (
     <div>
       Address <br />
@@ -8,7 +16,16 @@ export default function AddressSubsection() {
       <div className="order-subdiv">
         House Number/Street
         <br />
-        <input className="order-txtbox txtbox-sub" type="text" />
+        <input
+          className="order-txtbox txtbox-sub"
+          type="text"
+          value={housestreet}
+          onChange={(e) => setHousestreet(e.target.value)}
+          onBlur={(e) => checkHouseStreet()}
+        />
+        {houseStreetError && (
+          <div className="error">Please Enter House Number/Street.</div>
+        )}
         <br />
         City *
         <br />
