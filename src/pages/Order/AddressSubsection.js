@@ -1,12 +1,21 @@
 import React, { useState } from "react";
+import { cities } from "../../data/address.json";
 
 export default function AddressSubsection() {
   const [housestreet, setHousestreet] = useState("");
   const [houseStreetError, setHouseStreetError] = useState(false);
+  const [city, setCity] = useState("");
+  const [baranggay, setBaranggay] = useState("");
+  const [baranggayList, setBaranggayList] = useState([]);
 
   function checkHouseStreet() {
     setHouseStreetError(false);
     if (housestreet.length === 0) setHouseStreetError(true);
+  }
+
+  function citySelect(e) {
+    setCity(e.target.value);
+    setBaranggayList(cities.find((a) => a.value === e.target.value).baranggay);
   }
 
   return (
@@ -29,22 +38,30 @@ export default function AddressSubsection() {
         <br />
         City *
         <br />
-        <select className="select-drop">
-          <option value="">Choose City</option>
-          <option value="Makati1">Makati1</option>
-          <option value="Makati2">Makati2</option>
-          <option value="Makati3">Makati3</option>
-          <option value="Makati4">Makati4</option>
+        <select
+          className="select-drop"
+          value={city}
+          onChange={(e) => citySelect(e)}
+        >
+          {cities.map((city) => (
+            <option key={city.value} value={city.value}>
+              {city.label}
+            </option>
+          ))}
         </select>
         <br />
         Baranggay *
         <br />
-        <select className="select-drop">
-          <option value="">Choose Baranggay</option>
-          <option value="Baranggay1">Baranggay1</option>
-          <option value="Baranggay2">Baranggay2</option>
-          <option value="Baranggay3">Baranggay3</option>
-          <option value="Baranggay4">Baranggay4</option>
+        <select
+          className="select-drop"
+          value={baranggay}
+          onChange={(e) => setBaranggay(e.target.value)}
+        >
+          {baranggayList.map((b) => (
+            <option key={b.value} value={b.value}>
+              {b.label}
+            </option>
+          ))}
         </select>
       </div>
     </div>

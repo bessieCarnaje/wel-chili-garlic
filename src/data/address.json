@@ -1,0 +1,169 @@
+{
+  "cities": [
+    {
+      "value": "Manila",
+      "label": "Manila",
+      "baranggay": [
+        { "value": "Baranggay1", "label": "ManilaBaranggay1" },
+        { "value": "Baranggay1", "label": "ManilaBaranggay1" },
+        { "value": "Baranggay1", "label": "ManilaBaranggay1" },
+        { "value": "Baranggay1", "label": "ManilaBaranggay1" },
+        { "value": "Baranggay1", "label": "ManilaBaranggay1" },
+        { "value": "Baranggay1", "label": "ManilaBaranggay1" },
+        { "value": "Baranggay1", "label": "ManilaBaranggay1" },
+        { "value": "Baranggay1", "label": "ManilaBaranggay1" },
+        { "value": "Baranggay1", "label": "ManilaBaranggay1" }
+      ]
+    },
+    {
+      "value": "Caloocan",
+      "label": "Caloocan",
+      "baranggay": [
+        { "value": "Baranggay1", "label": "CaloocanBaranggay1" },
+        { "value": "Baranggay1", "label": "CaloocanBaranggay1" },
+        { "value": "Baranggay1", "label": "CaloocanBaranggay1" },
+        { "value": "Baranggay1", "label": "CaloocanBaranggay1" },
+        { "value": "Baranggay1", "label": "CaloocanBaranggay1" },
+        { "value": "Baranggay1", "label": "CaloocanBaranggay1" },
+        { "value": "Baranggay1", "label": "CaloocanBaranggay1" },
+        { "value": "Baranggay1", "label": "CaloocanBaranggay1" },
+        { "value": "Baranggay1", "label": "CaloocanBaranggay1" }
+      ]
+    },
+    {
+      "value": "Las Piñas",
+      "label": "Las Piñas",
+      "baranggay": [
+        { "value": "Baranggay1", "label": "LasBaranggay1" },
+        { "value": "Baranggay1", "label": "LasBaranggay1" },
+        { "value": "Baranggay1", "label": "LasBaranggay1" },
+        { "value": "Baranggay1", "label": "LasBaranggay1" },
+        { "value": "Baranggay1", "label": "LasBaranggay1" },
+        { "value": "Baranggay1", "label": "LasBaranggay1" },
+        { "value": "Baranggay1", "label": "LasBaranggay1" },
+        { "value": "Baranggay1", "label": "LasBaranggay1" },
+        { "value": "Baranggay1", "label": "LasBaranggay1" }
+      ]
+    },
+    {
+      "value": "Makati",
+      "label": "Makati",
+      "baranggay": [
+        { "value": "Baranggay1", "label": "MakatiBaranggay1" },
+        { "value": "Baranggay1", "label": "MakatiBaranggay1" },
+        { "value": "Baranggay1", "label": "MakatiBaranggay1" },
+        { "value": "Baranggay1", "label": "MakatiBaranggay1" },
+        { "value": "Baranggay1", "label": "MakatiBaranggay1" },
+        { "value": "Baranggay1", "label": "MakatiBaranggay1" },
+        { "value": "Baranggay1", "label": "MakatiBaranggay1" },
+        { "value": "Baranggay1", "label": "MakatiBaranggay1" },
+        { "value": "Baranggay1", "label": "MakatiBaranggay1" }
+      ]
+    },
+    {
+      "value": "Malabon",
+      "label": "Malabon",
+      "baranggay": [
+        { "value": "Baranggay1", "label": "MalabonBaranggay1" },
+        { "value": "Baranggay1", "label": "MalabonBaranggay1" },
+        { "value": "Baranggay1", "label": "MalabonBaranggay1" },
+        { "value": "Baranggay1", "label": "MalabonBaranggay1" },
+        { "value": "Baranggay1", "label": "MalabonBaranggay1" },
+        { "value": "Baranggay1", "label": "MalabonBaranggay1" },
+        { "value": "Baranggay1", "label": "MalabonBaranggay1" },
+        { "value": "Baranggay1", "label": "MalabonBaranggay1" },
+        { "value": "Baranggay1", "label": "MalabonBaranggay1" }
+      ]
+    },
+    {
+      "value": "Mandaluyong",
+      "label": "Mandaluyong",
+      "baranggay": [
+        { "value": "Baranggay1", "label": "MandaluyongBaranggay1" },
+        { "value": "Baranggay1", "label": "MandaluyongBaranggay1" },
+        { "value": "Baranggay1", "label": "MandaluyongBaranggay1" },
+        { "value": "Baranggay1", "label": "MandaluyongBaranggay1" },
+        { "value": "Baranggay1", "label": "MandaluyongBaranggay1" },
+        { "value": "Baranggay1", "label": "MandaluyongBaranggay1" },
+        { "value": "Baranggay1", "label": "MandaluyongBaranggay1" },
+        { "value": "Baranggay1", "label": "MandaluyongBaranggay1" },
+        { "value": "Baranggay1", "label": "MandaluyongBaranggay1" }
+      ]
+    },
+    {
+      "value": "Marikina",
+      "label": "Marikina",
+      "baranggay": [
+        { "value": "Baranggay1", "label": "MarikinaBaranggay1" },
+        { "value": "Baranggay1", "label": "MarikinaBaranggay1" },
+        { "value": "Baranggay1", "label": "MarikinaBaranggay1" },
+        { "value": "Baranggay1", "label": "MarikinaBaranggay1" },
+        { "value": "Baranggay1", "label": "MarikinaBaranggay1" },
+        { "value": "Baranggay1", "label": "MarikinaBaranggay1" },
+        { "value": "Baranggay1", "label": "MarikinaBaranggay1" },
+        { "value": "Baranggay1", "label": "MarikinaBaranggay1" },
+        { "value": "Baranggay1", "label": "MarikinaBaranggay1" }
+      ]
+    },
+    {
+      "value": "Muntinlupa",
+      "label": "Muntinlupa",
+      "baranggay": [
+        { "value": "Baranggay1", "label": "MuntinlupaBaranggay1" },
+        { "value": "Baranggay1", "label": "MuntinlupaBaranggay1" },
+        { "value": "Baranggay1", "label": "MuntinlupaBaranggay1" },
+        { "value": "Baranggay1", "label": "MuntinlupaBaranggay1" },
+        { "value": "Baranggay1", "label": "MuntinlupaBaranggay1" },
+        { "value": "Baranggay1", "label": "MuntinlupaBaranggay1" },
+        { "value": "Baranggay1", "label": "MuntinlupaBaranggay1" },
+        { "value": "Baranggay1", "label": "MuntinlupaBaranggay1" },
+        { "value": "Baranggay1", "label": "MuntinlupaBaranggay1" }
+      ]
+    },
+    {
+      "value": "Navotas",
+      "label": "Navotas",
+      "baranggay": [
+        { "value": "Baranggay1", "label": "Baranggay1" },
+        { "value": "Baranggay1", "label": "Baranggay1" },
+        { "value": "Baranggay1", "label": "Baranggay1" },
+        { "value": "Baranggay1", "label": "Baranggay1" },
+        { "value": "Baranggay1", "label": "Baranggay1" },
+        { "value": "Baranggay1", "label": "Baranggay1" },
+        { "value": "Baranggay1", "label": "Baranggay1" },
+        { "value": "Baranggay1", "label": "Baranggay1" },
+        { "value": "Baranggay1", "label": "Baranggay1" }
+      ]
+    },
+    {
+      "value": "Parañaque",
+      "label": "Parañaque",
+      "baranggay": [
+        { "value": "Baranggay1", "label": "Baranggay1" },
+        { "value": "Baranggay1", "label": "Baranggay1" },
+        { "value": "Baranggay1", "label": "Baranggay1" },
+        { "value": "Baranggay1", "label": "Baranggay1" },
+        { "value": "Baranggay1", "label": "Baranggay1" },
+        { "value": "Baranggay1", "label": "Baranggay1" },
+        { "value": "Baranggay1", "label": "Baranggay1" },
+        { "value": "Baranggay1", "label": "Baranggay1" },
+        { "value": "Baranggay1", "label": "Baranggay1" }
+      ]
+    },
+    {
+      "value": "Pasay",
+      "label": "Pasay",
+      "baranggay": [
+        { "value": "Baranggay1", "label": "Baranggay1" },
+        { "value": "Baranggay1", "label": "Baranggay1" },
+        { "value": "Baranggay1", "label": "Baranggay1" },
+        { "value": "Baranggay1", "label": "Baranggay1" },
+        { "value": "Baranggay1", "label": "Baranggay1" },
+        { "value": "Baranggay1", "label": "Baranggay1" },
+        { "value": "Baranggay1", "label": "Baranggay1" },
+        { "value": "Baranggay1", "label": "Baranggay1" },
+        { "value": "Baranggay1", "label": "Baranggay1" }
+      ]
+    }
+  ]
+}
